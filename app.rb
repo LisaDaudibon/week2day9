@@ -34,5 +34,5 @@ elsif
 elsif
     d = alpha(awry)
 else
-    d = longueur(awry)
+    e = longueur(awry)
 end
