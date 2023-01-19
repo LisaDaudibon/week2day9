@@ -5,28 +5,24 @@ end
 
 def county (awry)#réponse à 1.
     numb = awry.count
-    puts "Il y a #{ numb} handle Twitter dans cette liste"
+    puts "Il y a #{numb} handle Twitter dans cette liste. Impressionnant, non ?"
+    puts
 end
 
 def short(awry)
-    puts awry.sort_by {|w| w.length}[0]
+    puts "Le plus petit tiny handle de notre liste est #{awry.sort_by(&:length)[0]} !" # "&:"=compter les caractères cheat code Lilian
+    puts
 end
 
-def short(awry)
-    puts awry.sort_by {|w| w.length}[5]
-end
-=begin
-def fivecarac(awry) #question n°3
-    fivecarac = awry.count { .count }
-    puts fivecarac
-end
-=end
+
 def alpha(awry) #nombre n°5
     alphabetic = awry.sort { |a, b| a.downcase <=> b.downcase }
     puts alphabetic
+    puts
 end
 
 def longueur(tab)
     long = tab.sort_by! { |value| value.length }
     puts long
+    puts
 end
