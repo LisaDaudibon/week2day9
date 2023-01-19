@@ -15,7 +15,7 @@ def short(awry)
 end
 
 def fivecarac(awry)
-    puts "Le plus petit tiny handle de notre liste est #{awry.sort_by(&:length)[5]} !" # "&:"=compter les caractères cheat code Lilian
+    puts "Le handle de 5 caractères super secret est #{awry.sort_by(&:length)[5]} !" # "&:"=compter les caractères cheat code Lilian
     puts
 end
 

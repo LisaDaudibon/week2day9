@@ -27,11 +27,11 @@ ok = gets.chomp
 
 if ok == "a"
     a = county (awry)
-elsif
+elsif ok=="b"
     b = short(awry)
-elsif
+elsif ok=="c" #ne marche pas comme d'hab, ce que je code toute seule
     c = fivecarac(awry)
-elsif
+elsif ok=="d"
     d = alpha(awry)
 else
     e = longueur(awry)
